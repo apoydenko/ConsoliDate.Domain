@@ -13,6 +13,7 @@ namespace ConsoliDate.Domain
 
             var text = pp.Convert(fileName);
 
+
             Debug.WriteLine(text);
 
             var cp = new CourseParser();
